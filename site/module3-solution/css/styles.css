@@ -12,8 +12,14 @@ h2 {
 section {
 	background-color: #6c757d;
 }
+section > p {
+	padding: 25px;
+}
 .topofnavlink {
 	margin-top: 20px;
+}
+.navbar-toggler {
+	margin: 10px;
 }
 @media (min-width: 992px) {
 	a.nav-link {
